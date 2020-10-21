@@ -4,6 +4,9 @@
     background-color: black;
 }
 
-.hero-start {
-    background-image: url(/assets/images/designer_1.png);
+body {
+    background-image: url(../images/designer_1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
