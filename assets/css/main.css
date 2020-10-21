@@ -1,12 +1,95 @@
-.btn-buy {
-    width: 160px;
-    height: 26px;
-    background-color: black;
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-image: url(../images/designer_1.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: auto;
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1;
 }
+
+h2 {
+
+}
+
+h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+p.big-text {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(80, 95, 152, 1)
+}
+
+/* HEADER */
+/* HEADER */
+.hero-start {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 60px;
+}
+
+nav li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.btn-buy {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+/* FIRST SECTION */
+/* FIRST SECTION */
+.section-1 {
+    background-image: url(../images/designer_1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.section-1 .main-article {
+    padding-top: 250px;
+}
+
+.section-1 .main-article p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.section-1 .btn {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* SECOND SECTION */
+/* SECOND SECTION */
+.section-2 {
+    padding-top: 160px;
+}
+
+
