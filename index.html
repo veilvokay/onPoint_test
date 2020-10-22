@@ -14,7 +14,7 @@
 <body>
     <div class="container hero-start">
         <div class="row">
-            <nav class="navbar navbar-expand-md navbar-light w-100 justify-content-around">
+            <nav class="navbar navbar-expand-md w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,9 +30,11 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
+                    <span class="navbar-text logo">Landie</span>
                 </div>
-                <a href="#" class="navbar-brand position-absolute">Landie</a>
-                <button type="button" class="btn btn-buy" id="btnBuy">Buy Now</button>
+                <!-- <a href="#" class="navbar-brand position-absolute">Landie</a> -->
+                <!-- <span class="navbar-text">Landie</span> -->
+                <button type="button" class="btn btn-buy btn-full" id="btnBuy">Buy Now</button>
             </nav>
         </div>
     </div>
@@ -47,8 +49,8 @@
                         <p class="big-text text-left">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                         </p>
-                        <button type="button" class="btn">Purchase UI Kit</button>
-                        <button type="button" class="btn">Learn More</button>
+                        <button type="button" class="btn btn-full">Purchase UI Kit</button>
+                        <button type="button" class="btn btn-empty">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -63,7 +65,7 @@
                         <p class="big-text text-left">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit laborum nulla labore consectetur amet similique magnam, numquam quidem iure corporis praesentium repudiandae beatae veniam delectus voluptates eos aliquid eligendi.
                         </p>
-                        <div class="row">
+                        <div class="row tiles">
                             <div class="col-md-6">
                                 <span>
                                     <img src="./assets/images/icon.svg" alt="icon">
@@ -106,7 +108,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit laborum nulla labore consectetur amet similique magnam, numquam quidem iure corporis praesentium repudiandae beatae veniam delectus voluptates eos aliquid eligendi.
                         </p>
                         <div class="row options">
-                            <div class="col-md-6">
+                            <div class="col-md-6 tiles">
                                 <span>
                                     <img src="./assets/images/icon.svg" alt="icon">
                                 </span>
@@ -147,15 +149,33 @@
                 </div>
             </div>
         </section>
-        <footer>
+        <section class="section-4 footer">
             <div class="container">
-                <div class="row justify-content-between align-items-center position-relative">
-                    <span>@2020 Yourcompany</span>
-                    <a href="#" class="footer-logo">Landie</a>
-                    <button type="button" class="btn btn-buy" id="btnBuy">Purchase now</button>
+                <div class="row">
+                    <div class="col-md-12 first-footer-row position-relative">
+                        <span class="copyright">&#169 2020 Yourcompany</span>
+                        <span class="logo">Landie</span>
+                        <button type="button" class="btn btn-purchase btn-full position-absolute">Purchase Now</button>
+                    </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled d-flex footer-nav">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled d-flex align-items-center footer-media justify-content-end">
+                                <li><a href="#"><img src="./assets/images/fb.svg" alt="facebook"></a></li>
+                                <li><a href="#"><img src="./assets/images/li.svg" alt="linkedin"></a></li>
+                                <li><a href="#"><img src="./assets/images/tw.svg" alt="twitter"></a></li>
+                                <li><a href="#"><img src="./assets/images/yt.svg" alt="youtube"></a></li>
+                                <li><a href="#"><img src="./assets/images/inst.svg" alt="instagram"></a></li>
+                            </ul>
+                        </div>
                 </div>
             </div>
-        </footer>
+        </section>
     </main>
     
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
