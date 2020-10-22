@@ -292,3 +292,84 @@ ul.navbar-nav li {
     margin-left: 30px;
 }
 
+
+/* Media */
+
+.navbar-light .navbar-brand {
+  color: rgb(55, 68, 126, 1);
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgb(55, 68, 126, 1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(55, 68, 126, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(55, 68, 126, 1);
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: rgb(55, 68, 126, 1);
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(55, 68, 126, 1);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(55, 68, 126, 1);
+  border-color: rgb(55, 68, 126, 1);
+}
+
+.navbar-light .navbar-text {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    font-style: normal;
+    color: rgb(55, 68, 126, 1);
+}
+
+@media only screen and (max-width: 1158px) {
+    .section-3 .photo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-article button {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    p.big-text {
+        color: rgb(9, 17, 51, 1);
+    }
+
+    .section-1 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.2), 
+            rgba(0, 0, 0, 0.2)
+          ), url(../images/designer_1.svg);
+    }
+
+    .navbar-text.logo {
+        position: absolute;
+        margin-left: 0;
+    }
+
+    .navbar-nav li a {
+        padding: 0;
+    }
+
+    .btn-buy {
+        position: absolute;
+        top: 10px;
+    }
+}
